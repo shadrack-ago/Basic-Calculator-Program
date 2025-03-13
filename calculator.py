@@ -13,7 +13,7 @@ elif operator == '-':
         result = num1 - num2
         print(f"{num1} - {num2} = {result}")
     else:
-             print("Enter {num1} must be greater")
+             print("Enter {num1} must be greater than {num2}")
 elif operator == '/':
     if num2 != 0: 
         result = num1 / num2
